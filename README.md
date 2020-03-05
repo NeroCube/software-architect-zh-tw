@@ -23,16 +23,19 @@
 * 軟體體系結構是系統的基本組織，由其組件，它們之間的相互關係以及與環境的關係以及確定係統設計和演進的原理來表示。 （來源：軟件體系結構手冊）
 
 # 架構等級
-Architecture can be done on several “levels” of abstractness. The level influences the importance of necessary skills. As there are many possible categorizations possible my favorite segmentation includes these 3 levels:
-* **Application Level**: The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication usually within one development team.
-* **Solution Level**: The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication between multiple development teams.
-* **Enterprise Level**: The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication across the organization. See [Link](https://github.com/justinamiller/EnterpriseArchitecture) to learn more.
+架構可以抽象為幾個層次。水平會影響必要技能的重要性。
 
-Sometimes architects are also seen as “glue” between different stakeholders. Three examples:
+由於存在許多可能的分類，因此我喜歡細分成以下3個級別：
+* **應用程序層級**: 最低級別的架構. 專注於一個單一的應用程序。非常詳細的底層設計。通常在一個開發團隊中進行溝通。
+* **解決方案層級**: 中間層級的架構. 專注於滿足業務需求（業務解決方案）的一個或多個應用程序之中一些高層次但主要是低層次的設計。多個開發團隊之間的溝通。
+* **企業層級**: 最高級別的體系結構。專注於多種解決方案。高層次的抽象設計, 需要解決方案或應用程序架構師進行詳細說明. 整個組織的溝通. 參閱 [Link](https://github.com/justinamiller/EnterpriseArchitecture) to learn more.
 
-* **Horizontal**: Bridge communication between business and developers or different development teams.
-* **Vertical**: Bridge communication between developers and managers.
-* **Technology**: Integrate different technologies or applications with each other
+有時，架構師也被視為不同利益相關者之間的“膠水”。
+
+三個例子：
+* **水平**：橋接業務與開發人員或不同開發團隊之間的溝通。
+* **垂直**：在開發人員和管理人員之間架起溝通橋樑。
+* **技術**：相互集成不同的技術或應用程序。
 
 # 典型活動
 To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:
