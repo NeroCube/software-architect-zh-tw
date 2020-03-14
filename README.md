@@ -38,17 +38,17 @@
 * **技術**：相互集成不同的技術或應用程序。
 
 # 典型活動
-To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:
+要了解架構師所需的必要技能，我們首先需要了解典型活動。 我認為以下列表包含最重要的活動：
 
-* Define and decide development technology and platform
-* Define development standards, e.g., coding standards, tools, review processes, test approach, etc.
-* Support identifying and understanding business requirements
-* Design systems and take decisions based on requirements
-* Document and communicate architectural definitions, design and decisions
-* Check and review architecture and code, e.g., check if defined patterns and coding standards are implemented properly
-* Collaborate with other architects and stakeholders
-* Coach and consult developers
-* Detail out and refine higher level design into lower level design
+* 定義並確定開發技術和平台
+* 定義開發標準，例如編碼標準，工具，審查流程，測試方法等。
+* 支持識別和理解業務需求
+* 設計系統並根據需求做出決策
+* 記錄並傳達架構定義，設計和決策
+* 檢查和審查架構和代碼，例如，檢查定義的模式和編碼標準是否正確實施
+* 與其他建築師和利益相關者合作
+* 指導並諮詢開發商
+* 詳細說明並將高級設計改進為低級設計
 
    _Note: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore,     these activities are done over and over again._
 
