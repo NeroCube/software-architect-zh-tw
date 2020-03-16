@@ -46,24 +46,24 @@
 * 設計系統並根據需求做出決策
 * 記錄並傳達架構定義，設計和決策
 * 檢查和審查架構和代碼，例如，檢查定義的模式和編碼標準是否正確實施
-* 與其他建築師和利益相關者合作
+* 與其他架構師和商業關係人合作
 * 指導並諮詢開發商
-* 詳細說明並將高級設計改進為低級設計
+* 詳細說明並將高階設計改進為低階設計
 
-   _Note: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore,     these activities are done over and over again._
+   _注意：系統架構是一項連續的活動，尤其是在將其應用於敏捷軟件開發中時。 因此，這些活動需一遍又一遍地進行。_
 
 # 重要技能
-To support the laid-out activities specific skills are required. From my experience, read books and discussions we can boil this down to these ten skills every software architect should have:
-  * Design
-  * Decide
-  * Simplify
-  * Code
-  * Document
-  * Communicate
-  * Estimate
-  * Balance
-  * Consult
-  * Market
+為了支持佈局活動，需要特定技能。 根據我的經驗經過閱讀書籍和討論，我們可以將其總結為每個軟件架構師應具備的十項技能：
+   * 設計
+   * 決策
+   * 簡化
+   * 代碼
+   * 文件
+   * 溝通
+   * 評估 
+   * 權衡
+   * 諮詢
+   * 市場
 
 ## (1) Design
 What makes a good design? This is probably the most important and challenging question. I will make a distinction between theory and practice. To my experience, having a mix of both is most valuable. Let’s start with theory:
