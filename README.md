@@ -65,17 +65,17 @@
    * 諮詢
    * 市場
 
-## (1) Design
-What makes a good design? This is probably the most important and challenging question. I will make a distinction between theory and practice. To my experience, having a mix of both is most valuable. Let’s start with theory:
+## (1) 設計
+如何做一個好的設計? 這可能是最重要和最具挑戰性的問題. 我將在理論和實踐之間進行區分。 以我的經驗，兩者的結合是最有價值的。 讓我們從理論開始:
 
-* **Know the basic design patterns**: Patterns are one of the most important tool an architect needs to have to develop maintainable systems. With patterns you can reuse design to solve common problems with proven solutions. The book “Design Patterns: Elements of Reusable Object-Oriented Software” written by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma is a must read to everyone who is in software development. Although the pattern where published more than 20 years ago they are still the basis of modern software architecture. For example the Model-View-Controller (MVC) pattern was described in this book which is applied in many areas or is the basis for newer pattern, e.g. MVVM.
-* **Dig deeper into patterns and anti-pattern**: If you already know all basic GoF patterns, then extend your knowledge with more software design patterns. Or dig deeper into your area of interest. One of my favorite for application integration is the book “Enterprise Integration Patterns” written by Gregor Hohpe. This book is applicable in various areas whenever two applications need to exchange data, whether it is an old school file exchange from some legacy systems or modern Microservice architectures.
-* **Know quality measures**: Defining architecture is not an end. It has reasons why guidelines and coding standards are defined, applied and controlled. You do this because of quality and non-functional requirements. You want to have a system which is maintainable, reliable, adaptable, secure, testable, scaleable, usable, etc. And one piece to achieve all these quality attributes is to apply good architecture work. You could start to learn more about quality measures on wikipedia.
-Theory is important. Practice is equally or even more important if you do not want to become an Ivory Tower Architect.
+* **了解基本設計模式**: 模式是架構師開發可維護系統所需的最重要工具之一。 使用模式，您可以重複使用設計，以通過可靠的解決方案解決常見問題。John Vlissides，Ralph Johnson，Richard Helm和 Erich Gamma 撰寫的 Design Patterns: Elements of Reusable Object-Oriented Software 是所有從事軟體開發的人必讀的書。儘管該模式已發布20多年，但它們仍然是現代軟體開發架構的基礎。 例如，本書描述了模型-視圖-控制器（MVC）模式，該模式在許多領域都得到了應用，或者是更新模式的基礎，例如 MVVM。
+* **深入研究模式和反模式**: 如果您已經了解所有基本的 GoF 模式，則可以使用更多的軟體設計模式來擴展你的知識。 或更深入地研究您感興趣的領域。我最喜歡的應用程序集成之一是 Gregor Hohpe 撰寫的“ Enterprise Integration Patterns”一書。 無論兩個應用程序需要交換數據，無論是來自某些舊系統的舊式文件交換還是現代微服務體系結構的交換，這本書都適用於各個領域。
+* **了解品質衡量**: 定義架構並不是終點。 它有定義、應用和控制指南和編碼標準的原因。 您出於質量和非功能性要求而這樣做。 您想要的是一個可維護，可靠，適應性強，安全，可測試，可擴展，高可用的系統。要實現所有這些質量屬性，一件事情就是應用良好的架構工作。 您可以在維基百科上了解更多關於品質衡量。
+理論很重要。 如果您不想成為像牙塔架構師，那麼實踐同樣重要，甚至更為重要。
 
-* **Try out and understand different technology stacks**: I think this is the most important activity if you want to become a better architect. Try out (new) technology stacks and learn their ups and downs. Different or new technology comes with different design aspects and patterns. You most likely do not learn anything from just flipping through abstract slides but by trying it out by yourself and feel the pain or the relieve. An architect should not only have broad but also in some areas deep knowledge. It is not important to master all technology stacks but to have a solid understanding of the most important in your area. Also try out technology which is not in your area, e.g., if you are deep into SAP R/3 you should also try JavaScript and vice versa. Still, both parties will be surprised about the latest advances in SAP S/4 Hana. For example, you can try it by yourself and take a course at openSAP for free. Be curious and try out new things. Also try out stuff which you did not liked some years ago.
-* **Analyze and understand applied patterns**: Have a look at any current framework, e.g., Angular. You can study a lot of patterns in practice, e.g., Observables. Try to understand how it is applied in the framework, why it was done. And if you are really dedicated, have a deeper look into the code and understand how it was implemented.
-* **Be curious and attend User Groups**. [Meetup](https://www.meetup.com/)
+* **嘗試並了解不同的技術堆棧**: 如果您想成為一名更好的架構師，我認為這是最重要的活動。 試用（新）技術堆棧，並了解它們的興衰。不同或新技術具有不同的設計方面和模式。 您很可能從翻閱抽象幻燈片中不會學到任何東西，但可以試著自己嘗試一下，並感受期待來的痛苦或緩解。 架構是不應該只有廣度也需要在某些領域有較深的知識。掌握所有技術堆棧並不重要，但要對您所在領域最重要的知識，有深入的了解。另外嘗試不屬於你領域的技術，例如：如果你專研 SAP R/3 你應該也試試 JavaScript ，反之亦然. 儘管如此，雙方仍會對 SAP S/4 最新進展感到驚訝哈哈哈。例如，您可以自己嘗試看看 SAP S/4，然後上 openSAP 的免費課程。 好奇並嘗試新事物。 還可以嘗試一些您幾年前不喜歡的東西。
+* **分析和理解應用模式**: 看一下當前的任何框架，例如Angular。 您可以在實踐中研究很多模式，例如“可視化”。 嘗試了解它如何在框架中應用，為什麼要這樣做。 而且，如果您真的很專心，請更深入地研究代碼並了解其實現方式。
+* **好奇並參加用戶群**. [聚會](https://www.meetup.com/)
 
 ## (2) Decide
 An architect needs to be able to take decisions and guide projects or the entire organization into the right direction.
