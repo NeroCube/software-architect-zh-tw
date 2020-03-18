@@ -77,15 +77,15 @@
 * **分析和理解應用模式**: 看一下當前的任何框架，例如Angular。 您可以在實踐中研究很多模式，例如“可視化”。 嘗試了解它如何在框架中應用，為什麼要這樣做。 而且，如果您真的很專心，請更深入地研究代碼並了解其實現方式。
 * **好奇並參加用戶群**. [聚會](https://www.meetup.com/)
 
-## (2) Decide
-An architect needs to be able to take decisions and guide projects or the entire organization into the right direction.
+## (2) 決策
+架構師需要能夠做出決定並指導項目或整個組織朝正確的方向發展。
 
-* **Know what is important**: Do not waste time with unimportant decisions or activities. Learn what is important. To my knowledge there is not a book which has these information. My personal favorites are these 2 characteristics which I usually consider when evaluating if something is important or not: 
-  1. Conceptional Integrity: If you decide to do it in one way, stick to it, even if it is sometimes better to do it differently. Usually, this leads to a more straightforward overall concept, eases comprehensibility and eases maintenance. 
-  2. Uniformity: If you for example define and apply naming conventions it is not about upper- or lowercase, but to have it applied everywhere in the same way.
-* **Prioritize**: Some decisions are highly critical. If they are not taken early enough workarounds are build up which are often unlikely to be removed later and are a nightmare for maintenance, or worse, developers simply stop working until a decision is taken. In such situations it is sometimes even better to go with a “bad” decision instead of having no decision. But before it comes to this situation, consider prioritizing upcoming decisions. There are different ways to do so. I suggest having a look at the Weighted Shortest Job First (WSJF) model which is widely used within agile software development. Especially the measures time criticality and risk reduction are critical to estimate the priority of architecture decisions.
-* **Know your competence**: Do not decide things which are not in your competence. This is critical as it may ruin your position as architect significantly if not considered. To avoid this, clarify with your peers which responsibilities you have and what is part of your role. If there are more than one architect, then you should respect the level of architecture in which you are currently deployed. As an lower level architect you better come up with suggestions for higher level architecture instead of decisions. Further, I recommend checking critical decisions always with a peer.
-* **Evaluate multiple options**: Always lay out more than one option if it comes to decisions. In the majority of the cases I was involved in, there was more than one possible (good) option. Going with only one option is bad in two respects: First, it seems that you did not do your job properly and secondly it impedes making proper decisions. By defining measures, options can be compared based on facts instead of gut feelings, e.g. license costs or maturity. This usually leads to better and more sustainable decisions. Further, it eases to sell the decision to different stakeholders. Besides, if you do not have evaluated options properly you may miss arguments when it comes to discussions.
+* **知道什麼是重要的**: 不要浪份實踐做不重要的決策 或活動。學習什麼是重要的 據我所知，沒有一本書包含這些信息。我個人的最愛是這兩個特徵，我通常會在評估某些事情是否重要時考慮這些特徵: 
+  1. 概念完整性: 如果您決定以一種方式進行操作，請堅持執行，即使有時最好以其他方式進行。 通常，通常使得整體概念，易於理解並易於維護。。
+  2. 一致性: 例如，如果您定義並應用命名規範 它不是大寫或小寫，而是以相同的方式將其應用到所有地方。
+* **優先排序**: 一些決定非常關鍵。 如果不及早採取措施，則會形成足夠的解決方法，這些解決方法通常不太可能在以後刪除，這是維護的噩夢, 或更糟糕的是，開發人員直接停止工作直到做出決定。在這種情況下，有時最好做出“錯誤”的決定而不是沒有做決定。 但是在遇到這種情況之前，請考慮優先考慮即將做出的決定。有不同的方法可以做。 我建議看一下在敏捷軟件開發中廣泛使用的加權最短作業優先（WSJF）模型。 特別是時間緊迫性和風險降低措施對於評估架構決策的優先順序非常關鍵。
+* **知道你的權責**: 不要決定不在你權責內的事。這很關鍵，因為如果不考慮的話，它可能會嚴重破壞您作為架構師的地位。 為避免這種情況，請與您的同伴明確您要承擔的責任以及角色的一部分。 如果架構師不止一個，那麼您應該尊重當前部署的架構級別。 作為較低級別的架構師，您最好提出有關高層架構的建議，而不是決策。此外，我建議總是與同伴一起檢查關鍵決策。
+* **評估多個選項**: 如果涉及到決策，請務必提出多個選擇。 在我參與的大多數情況下，都有不止一種可能的（好的）選擇。 從兩個方面講，僅選擇一個選項是不好的: 首先，似乎您的工作做得不好，其次，它阻礙了做出正確的決定。 通過定義度量，可以基於事實而不是直覺來比較選項， 例如：授權費用或期限。 這通常會導致更好和更可持續的決策。 此外，可以輕鬆地將決策出售給不同的利益相關人。 此外，如果您沒有正確評估選項，則在討論中可能會失去論點。
 
 ## (3) Simplify
 Keep in mind the problem-solving principle Occam’s Razor which states to prefer simplicity. I interpret the principle as following: If you have too many assumptions about the problem to solve your solution will probably be wrong or lead to an unnecessary complex solution. Assumptions should be reduced (simplified) to come to a good solution.
