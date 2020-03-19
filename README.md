@@ -87,13 +87,14 @@
 * **知道你的權責**: 不要決定不在你權責內的事。這很關鍵，因為如果不考慮的話，它可能會嚴重破壞您作為架構師的地位。 為避免這種情況，請與您的同伴明確您要承擔的責任以及角色的一部分。 如果架構師不止一個，那麼您應該尊重當前部署的架構級別。 作為較低級別的架構師，您最好提出有關高層架構的建議，而不是決策。此外，我建議總是與同伴一起檢查關鍵決策。
 * **評估多個選項**: 如果涉及到決策，請務必提出多個選擇。 在我參與的大多數情況下，都有不止一種可能的（好的）選擇。 從兩個方面講，僅選擇一個選項是不好的: 首先，似乎您的工作做得不好，其次，它阻礙了做出正確的決定。 通過定義度量，可以基於事實而不是直覺來比較選項， 例如：授權費用或期限。 這通常會導致更好和更可持續的決策。 此外，可以輕鬆地將決策出售給不同的利益相關人。 此外，如果您沒有正確評估選項，則在討論中可能會失去論點。
 
-## (3) Simplify
-Keep in mind the problem-solving principle Occam’s Razor which states to prefer simplicity. I interpret the principle as following: If you have too many assumptions about the problem to solve your solution will probably be wrong or lead to an unnecessary complex solution. Assumptions should be reduced (simplified) to come to a good solution.
+## (3) 簡化
+請記住解決問題的原則 Occam 的 Razor，它指出更傾向簡單。 我將原理解釋如下: 如果您對問題的假設太多而無法解決，則可能會出錯或導致不必要的複雜解決方案。應該減少（簡化）假設以得出好的解決方案。
 
-* **Shake the solution**: To get solutions simplified, it often helps to “shake” the solution and look at them from different positions. Try to shape the solution by thinking top-down and again bottom-up. If you have a data flow or process, then first think left to right and again right to left. Ask questions such as: “What happens to your solution in a perfect world?” Or: “What would company / person X do?” (Where X is probably not your competitor, but one of the GAFA (Google, Apple, Facebook, & Amazon) companies.) Both questions force you to reduce assumptions as suggested by Occam’s Razor.
-* **Take a step back**: After intense and long discussions, highly complex scribbles are often the results. You should never ever see these as the final results. Take a step back: Have a look at the big picture again (abstract level). Does it still make sense? Then go through it on the abstract level again and refactor. Sometimes it helps to stop a discussion and continue the next day. At least my brain needs some time to process and to come up with better, more elegant and simpler solutions.
-* **Divide and Conquer**: Simplify the problem by dividing it into smaller pieces. Then solve them independently. Afterwards validate if the small pieces match together. Take the step back to have a look at the overall picture for this.
-* **Refactoring is not evil**: It is totally ok to start with a more complex solution if no better idea can be found. If the solution is making troubles you can later rethink the solution and apply your learning. Refactoring is not evil. But before you start refactoring, keep in mind to have (1) enough automated tests in place which can ensure the proper functionality of the system and (2) the buy-in from your stakeholders. To learn more about refactoring I suggest reading “Refactoring. Improving the Design of Existing Code” by Martin Fowler.
+* **搖動解決方案**: 為了簡化解決方案，通常有助於“搖動”解決方案並從不同位置查看它們。 嘗試通過自上而下和自下而上的方式來塑造解決方案。 如果您有數據流或流程，請首先從左到右，再從右到左思考。 提出以下問題："在理想環境中您的解決方案會發生什麼？" 或者："公司/人員 X 會做什麼？"（這裡 X 可能不是您的競爭對手，而是 GAFA（Google，Apple，Facebook 和 Amazon）公司之一。）這兩個問題都迫使您減少 Occam 的 Razor 建議的假設。
+* **退後一步**: 經過長時間的激烈討論，通常會得出高度複雜的塗鴉。 您永遠都不應將這些視為最終結果。 退後一步：再次查看全局（抽象級別）。 還是有意義嗎？ 然後再次在抽象級別上進行遍歷並進行重構。 有時，它有助於停止討論並在第二天繼續。 至少我的大腦需要一些時間來處理並提出更好，更優雅，更簡單的解決方案。
+* **分而治之**: 通過將問題分成更小的部分來簡化問題。 然後獨立解決它們。 然後驗證小塊是否匹配。最後退後一步以查看總體情況。
+* **重構不是邪惡的**: 如果找不到更好的主意，從更複雜的解決方案開始完全可以。 如果解決方案遇到麻煩，您可以稍後重新考慮解決方案並應用您的學習。 重構不是邪惡的。 但是在開始重構之前，請記住要進行以下工作：
+（1）進行足夠的自動化測試，以確保系統的正確功能；以及（2）從利益相關人的支持。 要了解有關重構的更多信息，建議閱讀“重構。 改進現有代碼的設計”，作者是 Martin Fowler。
 
 ## (4) Code
 Even as an Enterprise Architect, the most abstract level of architecture, you should still know what developers are doing on their daily basis. And if you do not understand how this is done, you may face two major problems: 
