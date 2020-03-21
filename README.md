@@ -96,17 +96,17 @@
 * **重構不是邪惡的**: 如果找不到更好的主意，從更複雜的解決方案開始完全可以。 如果解決方案遇到麻煩，您可以稍後重新考慮解決方案並應用您的學習。 重構不是邪惡的。 但是在開始重構之前，請記住要進行以下工作：
 （1）進行足夠的自動化測試，以確保系統的正確功能；以及（2）從利益相關人的支持。 要了解有關重構的更多信息，建議閱讀“重構。 改進現有代碼的設計”，作者是 Martin Fowler。
 
-## (4) Code
-Even as an Enterprise Architect, the most abstract level of architecture, you should still know what developers are doing on their daily basis. And if you do not understand how this is done, you may face two major problems: 
-  1. Developers won’t accept your sayings. 
-  2. You do not understand challenges and needs of developers.
+## (4) 代碼
+即使作為企業架構師（最抽象的體系結構級別），您仍然應該知道開發人員的日常工作。 而且，如果您不了解如何完成此操作，則可能會遇到兩個主要問題：
+  1. 開發人員不會接受您的說法。 
+  2. 您不了解開發人員的挑戰和需求。
 
-* **Have a side project**: The purpose of this is to try out new technologies and tools to find out how development is done today and in the future. Experience is the combination of observations, emotions and hypothesis (“Experience and Knowledge Management in Software Engineering” by Kurt Schneider). Reading a tutorial or some pros and cons is good. But this is just “book knowledge”. Only if you try out things by yourself you can experience emotions and can built up hypothesis about why something is good or bad. And the longer you work with a technology the better your hypothesis will get. This will help you to take better decisions in your day to day work. As I started programming I had no code completion and only some utility libraries to speed up development. Obviously, with this background I would make wrong decisions today. Today, we have tons of programming languages, frameworks, tools, processes and practices. Only if you have some experience and a rough overview in the major trends you are able to take part of the conversation and to steer development into the right direction.
-* **Find the right things to try out**: You cannot try out everything. This is simply impossible. You need a more structured approach. One source I recently discovered is the Technology Radar from ThoughtWorks. They categorize technologies, tools, platforms, languages and frameworks into four categories: Adopt, Trial, Assess and Hold.  With this categorization it is easier to get an overview of new things and their readiness to better evaluate which trend to explore next.
-  * Adopt: “strong feeling to be ready for enterprise usage”.
-  * Trial: “enterprise should try it in one project that can handle the risk”.
-  * Assess: “explore how it affects your enterprise” 
-  * Hold: “process with caution”. 
+* **有一個輔助項目**: 這樣做的目的是嘗試新技術和工具，以了解當今和未來的開發方式。 經驗是結合觀察情感和假設（Kurt Schneider的" 軟體工程中的經驗和知識管理"）。閱讀教程或一些利弊是好的。 但這僅僅是“書籍知識”。 僅當您自己嘗試事物時，您才能體驗到情緒並建立關於事物好壞的假設。 而且，您使用某項技術的時間越長，您的假設就會越好。 這將幫助您在日常工作中做出更好的決定。當我開始編程時，我沒有代碼完成，只有一些實用程序庫可以加快開發速度。 顯然，在這種背景下，我今天會做出錯誤的決定。 今天，我們擁有大量的編程語言，框架，工具，過程和實踐。 只有您對主要趨勢有一定的經驗和粗略的了解，才能參與對話並引導開發朝正確的方向發展。
+* **找到合適的東西去嘗試**: 您無法嘗試所有內容。 這根本是不可能的。 您需要一種更有條理的方法。 我最近發現的一種來源是ThoughtWorks的Technology Radar。 他們將技術，工具，平台，語言和框架分為四類：採用，試用，評估和保留。 通過這種分類，更容易獲得新事物的概述及其準備情況，以更好地評估下一步要探索的趨勢。
+  * 採納："強烈的意願為企業使用做好準備"。
+  * 試用："企業應該在一個可以處理風險的項目中進行嘗試"。
+  * 評估："探索它如何影響您的企業"。
+  * 舉行："謹慎處理"。
   
 
 
