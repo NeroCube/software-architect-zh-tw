@@ -110,13 +110,13 @@
   
 
 
-## (5) Document
-Architectural documentation is sometimes more and sometimes less important. Important documents are for example architectural decisions or code guidelines. Initial documentation is often required before coding starts and need to be refined continuously. Other documentation can be automatically generated as code can also be documentation, e.g. UML class diagrams.
+## (5) 文件
+架構文檔有時或多或少地重要。 重要文檔是例如架構決策或代碼準則。 編程開始之前通常需要初始文檔，並且需要不斷完善。 其他文檔可以自動生成，因為代碼也可以是文檔，例如 UML類圖。
 
-* **Clean Code**: Code is the best documentation if done right. A good architect should be capable to distinguish between good and bad code. A really great resource to learn more about good and bad code is the book “Clean Code” by Robert C. Martin.
-* **Generate documentation where possible**: Systems are changing quickly and it is hard to update the documentation. Whether it is about APIs or system landscapes in form of CMDBs (Configuration management database): The underlying information often changes too fast to keep the corresponding documentation up to date by hand. Example: For APIs you could auto generate documentation based on the definition file if you are model driven, or directly from the source code. A lot of tools exist for that, I think Swagger and RAML are a good starting point to learn more.
-* **As much as necessary, as little as possible**: Whatever you need to document, e.g., decision papers, try to focus on only one thing at a time and include only the necessary information for this one thing. Extensive documentation is hard to read and to understand. Additional information should be stored in the appendix. Especially for decision papers it is more important to tell a convincing story instead of just throwing tons of arguments. Further, this saves you and your co-workers, who have to read it, a lot of time. Have a look at some documentation you have done in the past (source code, models, decision papers, etc.) and ask yourself the following questions: “Are all necessary information included to understand it?”, “Which information are really required and which could be omitted?” and “Does the documentation has a red line?”.
-* **Learn more about architecture frameworks**: This point could be applied to all other “technical” points as well. I put it here, as frameworks like TOGAF or Zachmann are providing “tools” which feel heavy on the documentation site, although their added value is not limited to documentation. Getting certified in such a framework teaches you to tackle architecture more systematically.
+* **簡潔程式碼**: 如果做對的話，代碼是最好的文檔。 一個好的架構師應該能夠區分好的代碼和壞的代碼。 Robert C. Martin 所著的 "Clean Code" 一書是了解更多關於好壞代碼的寶貴資源。
+* **盡可能生成文檔**: 系統變化迅速，很難更新文檔。 無論是有關 API 還是 CMDB（配置管理數據庫）形式的系統格局： 基礎信息經常變化太快而無法手動更新相應的文檔。 示例：對於API，如果您是模型驅動的，則可以基於定義文件自動生成文檔或直接從源代碼中獲取。 為此，存在許多工具，我認為 Swagger 和 RAML 是學習更多內容的一個很好的起點。
+* **盡可能少**: 無論您需要記錄什麼文件（例如決策文件），都應嘗試一次只關註一件事，並且僅包含關於這件事的必要信息。 大量的文檔很難閱讀和理解。 附加信息應存儲在附錄中。 特別是對於決策文件，講一個有說服力的故事而不是僅僅進行大量爭論，其更為重要。 此外，這為您和您的同事節省了很多時間，而後者需要閱讀。 看看您過去所做的一些文檔（源代碼，模型，決策文件等）並問自己以下問題："是否包含所有必要的信息才能理解它？"，"確實需要哪些信息，可以省略哪些信息？" 和"文檔中是否有紅線？"。
+* **了解有關架構框架的更多信息**: 該點也可以應用於所有其他"技術"點。 我把它放在這裡，是因為 TOGAF 或Zachmann 之類的框架正在提供"工具"，這些工具在文檔站點上感覺很沉重，儘管它們的附加值並不限於文檔。 在這樣的框架中獲得認證可以教會您更系統地解決體系結構。
 
 ## (6) Communicate
 From my observations this is one of the most underestimated skill. If you are brilliant in design but cannot communicate your ideas, your thoughts are likely to have less impact or even fail to succeed.
