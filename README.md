@@ -118,15 +118,15 @@
 * **盡可能少**: 無論您需要記錄什麼文件（例如決策文件），都應嘗試一次只關註一件事，並且僅包含關於這件事的必要信息。 大量的文檔很難閱讀和理解。 附加信息應存儲在附錄中。 特別是對於決策文件，講一個有說服力的故事而不是僅僅進行大量爭論，其更為重要。 此外，這為您和您的同事節省了很多時間，而後者需要閱讀。 看看您過去所做的一些文檔（源代碼，模型，決策文件等）並問自己以下問題："是否包含所有必要的信息才能理解它？"，"確實需要哪些信息，可以省略哪些信息？" 和"文檔中是否有紅線？"。
 * **了解有關架構框架的更多信息**: 該點也可以應用於所有其他"技術"點。 我把它放在這裡，是因為 TOGAF 或Zachmann 之類的框架正在提供"工具"，這些工具在文檔站點上感覺很沉重，儘管它們的附加值並不限於文檔。 在這樣的框架中獲得認證可以教會您更系統地解決體系結構。
 
-## (6) Communicate
-From my observations this is one of the most underestimated skill. If you are brilliant in design but cannot communicate your ideas, your thoughts are likely to have less impact or even fail to succeed.
+## (6) 溝通
+在我的觀察這是一項最常被低估的技能. 如果您的設計精湛，卻無法傳達您的想法，那麼您的想法可能只有較小的影響力，甚至無法成功。
 
-* **Learn how to communicate your ideas**: When collaborating on a board or flip chart, it is essential to know how to use it properly in order to structure you and your peers’ thoughts. I found the book “UZMO — Thinking With Your Pen” to be a good resource to enhance my skills in this area. As an architect you usually do not only participating in a meeting, usually you need to drive the meeting and to moderate it.
-* **Give talks to large groups**: Presenting your ideas to a small or large group should be doable for you. If you feel uncomfortable with this, start presenting to your best friend. Enlarge the group slowly. This is something which you can only learn by doing and by leaving your personal comfort zone. Be patient with yourself, this process may take some time.
-* **Find the right level of communication**: Different stakeholders have different interests and views. They need to be addressed individually on their level. Before you communicate, step back and check if the information you want to share have the right level, regarding abstractness, content, goals, motivations, etc. Example: A developer is usually interested in the very little detail of the solution, whereas a manager prefers to know which option saves most money.
-* **Communicate often**: A brilliant architecture is worthless if nobody knows about it. Distribute the target architecture and the thoughts behind it, regularly and on every organizational level. Schedule meetings with developers, architects and managers to show them the desired or defined way.
-* **Be transparent**: Regular communication mitigates missing transparency only partially. You need to make the reason behind decisions transparent. Especially, if people are not involved in the decision-making process it is hard to understand and to follow the decision and rationale behind it.
-* **Be always prepared to give a presentation**: There is always someone with questions and you want to give the right answers immediately. Try to always have the most important slides in a consolidated set which you can show and explain. It saves you a lot of time and it gives security to yourself.
+* **了解如何交流您的想法**: 在會議或白板簡報中, 如何適當地使用它將自己與夥伴的想法架構是必要的. 我找到這本書 “UZMO — Thinking With Your Pen” 是能提高我在這一領域技能的良好資源。 作為架構師，您通常不僅會參加會議，而且通常需要主持會議並緩頰會議。
+* **與大型團體進行演講**: 將您的想法呈現給小型或大型團體應該對您來說可行。如果您對此感到不舒服，請先開始向您最好的朋友練習介紹。慢慢擴大小組。 這是您只能通過做和離開自己的舒適圈來學習的東西。 請保持耐心，此過程可能需要一些時間。
+* **找到正確的溝通水平**: 不同的合夥人有不同的興趣和看法。 需要在其級別上對它們進行對應的言論。 在進行交流之前，請退後一步並檢查您要分享的信息是否具有在正確的級別，有關抽象性，內容，目標，動機等。例如：開發人員通常對解決方案的很少細節感興趣，經理則不同。 比較想知道哪個選項可以節省最多的錢。
+* **經常交流**: 如果沒有人知道，那麼出色的架構，他將毫無價值可言。定期在每個組織級別上分發目標體系結構及其背後的想法。 安排與開發人員，架構師和管理人員的會議，以向他們展示所需或已定義的方式。
+* **盡量透明**: 定期交流只能部分緩解缺少的透明度。 您需要使決策背後的原因透明化。 特別是，如果人們不參與決策過程，則很難理解和遵循其背後的決策和理由。
+* **隨時準備發表演講**: 總會遇到有人提出問題，您想立即給出正確的答案。 嘗試將最重要的幻燈片放在一個可以展示和解釋的穩固的集合中。 它為您節省了大量時間，並為您提供安全保護。
 
 ## (7) Estimate and Evaluate
 * **Know basic project management principles**: As architect or lead developer you are often asked for estimates to realize your ideas: How long, how much, how many people, which skills, etc.? Of course, if you plan to introduce new tools or frameworks you need to have an answer for these kind of “management” questions. Initially, you should be able to give a rough estimate, like days, months or years. And do not forget that it is not only about implementing, there are more activities to consider, like requirements engineering, testing and fixing bugs. Therefore, you should know the activities the used software development process. One thing you can apply to get better estimates, is to use past data and derive your prediction from that. If you do not have past data, you can also try approaches such as COCOMO by Barry W. Boehm. If you are deployed in an agile project, learn how to estimate and to plan properly: The book “Agile Estimating and Planning” by Mike Cohn provides a solid overview in this area.
