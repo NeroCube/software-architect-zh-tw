@@ -94,7 +94,10 @@
 * **退後一步**: 經過長時間的激烈討論，通常會得出高度複雜的塗鴉。 您永遠都不應將這些視為最終結果。 退後一步：再次查看全局（抽象級別）。 還是有意義嗎？ 然後再次在抽象級別上進行遍歷並進行重構。 有時，它有助於停止討論並在第二天繼續。 至少我的大腦需要一些時間來處理並提出更好，更優雅，更簡單的解決方案。
 * **分而治之**: 通過將問題分成更小的部分來簡化問題。 然後獨立解決它們。 然後驗證小塊是否匹配。最後退後一步以查看總體情況。
 * **重構不是邪惡的**: 如果找不到更好的主意，從更複雜的解決方案開始完全可以。 如果解決方案遇到麻煩，您可以稍後重新考慮解決方案並應用您的學習。 重構不是邪惡的。 但是在開始重構之前，請記住要進行以下工作：
-（1）進行足夠的自動化測試，以確保系統的正確功能；以及（2）從利益相關人的支持。 要了解有關重構的更多信息，建議閱讀“重構。 改進現有代碼的設計”，作者是 Martin Fowler。
+
+  1. 進行足夠的自動化測試，以確保系統的正確功能。
+
+  2. 利益相關人的支持。 要了解更多有關重構的信息，建議閱讀"Refactoring. Improving the Design of Existing Code"，作者是 Martin Fowler。
 
 ## (4) 代碼
 即使作為企業架構師（最抽象的體系結構級別），您仍然應該知道開發人員的日常工作。 而且，如果您不了解如何完成此操作，則可能會遇到兩個主要問題：
@@ -128,13 +131,13 @@
 * **盡量透明**: 定期交流只能部分緩解缺少的透明度。 您需要使決策背後的原因透明化。 特別是，如果人們不參與決策過程，則很難理解和遵循其背後的決策和理由。
 * **隨時準備發表演講**: 總會遇到有人提出問題，您想立即給出正確的答案。 嘗試將最重要的幻燈片放在一個可以展示和解釋的穩固的集合中。 它為您節省了大量時間，並為您提供安全保護。
 
-## (7) Estimate and Evaluate
-* **Know basic project management principles**: As architect or lead developer you are often asked for estimates to realize your ideas: How long, how much, how many people, which skills, etc.? Of course, if you plan to introduce new tools or frameworks you need to have an answer for these kind of “management” questions. Initially, you should be able to give a rough estimate, like days, months or years. And do not forget that it is not only about implementing, there are more activities to consider, like requirements engineering, testing and fixing bugs. Therefore, you should know the activities the used software development process. One thing you can apply to get better estimates, is to use past data and derive your prediction from that. If you do not have past data, you can also try approaches such as COCOMO by Barry W. Boehm. If you are deployed in an agile project, learn how to estimate and to plan properly: The book “Agile Estimating and Planning” by Mike Cohn provides a solid overview in this area.
-* **Evaluate “unknown” architecture**: As architect you should also be able to evaluate the suitability of architectures for the current or future context(s). This is not an easy task but you can prepare for it by having a set of questions at hand which are common for every architecture. And it’s not only about architecture but also about how the system is managed, as this also gives you insides about the quality. I suggest to always have some questions prepared and ready to use. Some ideas for general questions:
-  1. Design practices: Which patterns does the architecture follow? Are they consequently and correctly used? Does the design follow a red line or is there an uncontrolled growth? Is there a clear structure and separation of concerns? 
-  2. Development practices: Code guidelines in place and followed? How is the code versioned? Deployment practices?
-  3. Quality assurance: Test automation coverage? Static code analysis in place and good results? Peer reviews in place?
-  4. Security: Which security concepts are in place? Built-in security? Penetration tests or automated security analysis tools in place and regularly used?
+## (7) 估計和評估
+* **了解基本的項目管理原則**: 作為架構師或首席開發者，經常會要求您提供估計以實現您的想法：多長時間，多少，多少人，哪些技能等？ 當然，如果您打算引入新的工具或框架，則需要為此類“管理”問題提供答案。 最初，您應該能夠進行粗略的估算，例如幾天，幾個月或幾年。並且不要忘記，這不僅涉及實現，還有更多活動需要考慮，例如需求工程，測試和修復錯誤。因此，您應該了解所使用的軟體開發過程的活動。 您可以應用以獲得更好的估計的一件事是使用過去的數據並從中得出您的預測。 如果您沒有過去的數據，也可以嘗試使用 Barry W. Boehm 的 COCOMO 之類的方法。如果您部署在敏捷項目中，請學習如何估算和正確計劃： 這本書 “Agile Estimating and Planning” by Mike Cohn 在這方面提供了紮實的概述。
+* **評估『未知』架構**: 作為架構師，您還應該能夠評估架構在當前或將來中的適用性。 這不是一件容易的事，但是您可以通過準備一系列常見於每種架構的問題來為它做準備。 它不僅與架構有關，而且與系統的管理方式有關, 因為這也使您對品質有深刻的了解。 我建議總是準備一些問題來備用。 關於一般性問題的一些想法：
+  1. 設計實踐：體系結構遵循哪些模式？ 因此，它們是否正確使用？ 設計遵循紅線還是增長不受控制？ 是否有清晰的結構和關注點分離？
+  2. 開發實踐: 代碼準則到位並遵循？ 代碼如何版本化？ 部署實踐？
+  3. 質量保證：測試自動化範圍？ 靜態代碼分析到位並取得良好結果？ 同行評論到位？
+  4. 安全性：有哪些安全概念？ 內置安全性？ 滲透測試或自動安全分析工具是否到位並經常使用？
 
 ## (8) Balance
 * **Quality comes at a price**: Earlier I talked about quality and non-functional requirements. If you overdo architecture it will increase costs and probably lower speed of development. You need to balance architectural and functional requirements. Over engineering should be avoided.
