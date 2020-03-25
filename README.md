@@ -139,12 +139,12 @@
   3. 質量保證：測試自動化範圍？ 靜態代碼分析到位並取得良好結果？ 同行評論到位？
   4. 安全性：有哪些安全概念？ 內置安全性？ 滲透測試或自動安全分析工具是否到位並經常使用？
 
-## (8) Balance
-* **Quality comes at a price**: Earlier I talked about quality and non-functional requirements. If you overdo architecture it will increase costs and probably lower speed of development. You need to balance architectural and functional requirements. Over engineering should be avoided.
-* **Solve contradicting goals**: A classic example of contradicting goals are short- and long-term goals. Projects often tend to build the simplest solution whereas an architect has the long-term vision in mind. Often, the simple solution does not fit into the long-term solution and is at risk to be thrown away later (sunk costs). To avoid implementation into the wrong direction, two things need to be considered: 
-  1. Developers and business need to understand the long term vision and their benefits in order to adapt their solution and 
-  2. managers who are responsible for budget need to be involved to understand the financial impact. It is not necessary to have 100% of the long term vision in place directly, but the developed piece should fit into it.
-* **Conflict management**: Architects are often the glue between multiple groups with different backgrounds. This may lead to conflicts on different levels of communication. To find a balanced solution which also reflect long-term, strategic goals, it is often the role of architects to help overcome the conflict. My starting point regarding communication theory was the “Four-Ears Model” of Schulze von Thun. Based on this model a lot can be shown and deducted. But this theory needs some practice, which should be experienced during communication seminars.
+## (8) 權衡
+* **質量是有代價的**: 之前我談到了質量和非功能性需求。如果您過度設計架構，則會增加成本並可能降低開發速度，您需要平衡架構和功能需求，應避免過度設計。
+* **解決矛盾的目標**: 相互矛盾的目標的一個典型例子是短期和長期目標，項目通常傾向於構建最簡單的解決方案，而架構師則具著眼於長期。 通常，簡單的解決方案不適合長期解決方案，並且有被以後拋棄的風險（降低成本）。 為了避免實現錯誤的方向，需要考慮兩點：
+  1. 開發人員和企業需要了解長期願景及其收益，以適應其解決方案。 
+  2. 負責預算的經理需要參與以了解財務影響。 不必直接將100％的遠景放置在適當的位置，但是開發的部分應該適當規劃。
+* **衝突管理**: 架構師通常是具有不同背景多個小組之間的接著劑。 這可能會在不同級別的溝通上發生衝突。 為了找到一個能夠反映長期戰略目標的平衡解決方案，通常架構師的作用就是幫助克服衝突。我的出發點是基於 Schulze von Thun 的 "Four-Ears Model" 溝通理論。 基於此模型很多可以顯示並推論。 但是，該理論需要一些實踐，在交流研討會上應該可以取得經驗。
 
 ## (9) Consult and Coach
 Being pro-active is probably the best you can do when it comes to consulting and coaching. If you are asked, it is often too late. And cleaning up on the architecture site is something which you want to avoid. You need to somehow foresee the next weeks, months or even years and prepare yourself and the organization for the next steps.
